@@ -1,5 +1,5 @@
 import type { Component } from 'solid-js';
-
+import { Router, Routes, Route, Link } from "solid-app-router";
 import logo from './logo.svg';
 import styles from './App.module.css';
 

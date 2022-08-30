@@ -10,13 +10,23 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.8.2",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "^2.7.1",
+    "typescript": "*",
     "vite": "^3.0.9",
     "vite-plugin-solid": "^2.3.0"
   },
   "dependencies": {
+    "@solidjs/router": "^0.4.2",
     "beercss": "^2.2.9",
     "material-dynamic-colors": "^0.0.10",
+    "solid-app-router": "^0.4.2",
     "solid-js": "^1.5.1"
   }
 }
