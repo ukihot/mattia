@@ -4,6 +4,7 @@ import { render } from "solid-js/web";
 
 import Header from "./components/Header";
 import Access from "./pages/Access";
+import Demo from "./pages/Demo"
 const liveSchedule = lazy(() => import("./pages/liveSchedule"));
 const mattia = lazy(() => import("./pages/Mattia"));
 
@@ -15,6 +16,7 @@ render(
         <Routes>
           <Route path="/" component={mattia} />
           <Route path="/liveschedule" component={liveSchedule} />
+          <Route path="/demo" component={Demo} />
         </Routes>
         <Access />
       </Suspense>
