@@ -15,9 +15,9 @@ render(
       <Suspense fallback="Loading...">
         <Header />
         <Routes>
-          <Route path="/" component={mattia} />
+          <Route path="/" component={demo} />
           <Route path="/liveschedule" component={liveSchedule} />
-          <Route path="/demo" component={demo} />
+          <Route path="/demo" component={mattia} />
         </Routes>
         <Access />
       </Suspense>
