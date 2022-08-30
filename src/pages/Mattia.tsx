@@ -1,9 +1,11 @@
+import { Link } from "solid-app-router";
 import { Component } from "solid-js";
 
 const Mattia: Component = () => {
   return (
     <>
-      <p>真ん中</p>
+      <Link href="/liveschedule">→らいぶすけじゅーる←</Link>
+      <p>下はまっぷ</p>
     </>
   );
 };

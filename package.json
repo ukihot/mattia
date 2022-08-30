@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@solidjs/router": "^0.4.2",
+    "@types/styled-components": "^5.1.26",
     "beercss": "^2.2.9",
     "material-dynamic-colors": "^0.0.10",
     "solid-app-router": "^0.4.2",

@@ -4,7 +4,7 @@ import { Petals } from "../utils/consts";
 const liveSchedule = () => {
   return (
     <>
-      <p>まんなか</p>
+      <p>下はまっぷ</p>
     </>
   );
 };
