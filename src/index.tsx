@@ -5,7 +5,7 @@ import { render } from "solid-js/web";
 import Header from "./components/Header";
 import Access from "./pages/Access";
 import Demo from "./pages/Demo"
-const liveSchedule = lazy(() => import("./pages/liveSchedule"));
+const liveSchedule = lazy(() => import("./pages/LiveSchedule"));
 const mattia = lazy(() => import("./pages/Mattia"));
 
 render(
